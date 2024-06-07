@@ -1,0 +1,107 @@
+From 4727c7ff82a41b0e9df7be1767b66e667d5bef2f Mon Sep 17 00:00:00 2001
+From: Aaron Wu <awu0626@seas.upenn.edu>
+Date: Thu, 6 Jun 2024 19:44:33 -0400
+Subject: [PATCH] set-up task finished, passed client_test.py on 100%
+
+---
+ __pycache__/client3.cpython-39.pyc             | Bin 0 -> 1114 bytes
+ .../client_test.cpython-39-pytest-7.1.2.pyc    | Bin 0 -> 1274 bytes
+ client3.py                                     |  17 ++++++++++++-----
+ 3 files changed, 12 insertions(+), 5 deletions(-)
+ create mode 100644 __pycache__/client3.cpython-39.pyc
+ create mode 100644 __pycache__/client_test.cpython-39-pytest-7.1.2.pyc
+
+diff --git a/__pycache__/client3.cpython-39.pyc b/__pycache__/client3.cpython-39.pyc
+new file mode 100644
+index 0000000000000000000000000000000000000000..b092776cc3fbf2d17efba9ff64b377fa59afdf7a
+GIT binary patch
+literal 1114
+zcmYjQPjeeJ6qk0j>$PKtG|iuSdJ)XDV20EI4s<dF3Q2)shD_Q_4`|xik*#NEll876
+z$v};BG9Sb_@+CMhocRE{a_XHEm-1FlGL`22)!V11-+L=ttp>sM_jkR)Uv)zMsf@Q5
+z`p9D>^CvPz6wQfPN-C(g0}-k~FcpeOF%|trM66;}Ls^4FC1-*D1M1L#Xin$!fV})g
+ztN>XwAv|p@R)H<v0lJ`<<dR;}#aboBt&E6uxP`I1;x@!^drn_4u^~3ame_`ESci>A
+z1n#IhY``XL!S;Y{kvXO0e2m@()L>n$v<dQNo6Li&vjatsNvHK1-$4$i@19sY-s^Vr
+zvM=+K(%8L+yAOA}=M&JczRc9;zg}ejQbPJjH!DJoA?+iX$H-=gN1I$wTWLX?s1Wa?
+z7lF6gjUCQ{S-4G9beCMP8Lg}t8!)UUo_@xUbg3qN;4;s-Jpo<-C{X+-nNPrQTk;_k
+zpryqKuB4UYGAk^1k+Eg}%++i;PJ5Yh(O74FSlZH@y$-Ox4t3EWFQx57E;^r-7Ifuy
+zb^IV*#@8`+sp{%!zZ1QJ;=fP2&kbnP?PbNV`~A@m``tmQ<q&pG$D{s^`5AUBez@~-
+zx1VQF*iRpfU%BQG>;V>d<O{?s#*bE*&^6pms$1ymR|Q<JO0UQRdIyymRTKxNse)sK
+zbVl!zV+0m~3a9V!Z^3fJAuD+~;J*4)a#^S=y~lOctV92RP9SPmA=gUJA1qlD16_jk
+zKCAM5h?a?w5v-L3dext%=}2Zpnoi$;S|O+SJ;SBtA0T#n_smBe-|wZr2DQ#K@!2rW
+zg<pNW@4|y8-*noJotm<6vBpZvkz1YUJkNR$G~lQi>*A#?qNmTFJp0knLyyu;356U%
+znmU$Y>s*96hTv%GB5bNMu6CWJhFQun;5FE$k+hC!kjllr=SIZ7Mxzsan4bV${nol_
+zkMFu4p2EHbP&EX4iPEDH&Swr^Y@*BDN0w0BA;X<Ca0hF&L7Q(HjG=!GiP6TJB>W!?
+CDH&h@
+
+literal 0
+HcmV?d00001
+
+diff --git a/__pycache__/client_test.cpython-39-pytest-7.1.2.pyc b/__pycache__/client_test.cpython-39-pytest-7.1.2.pyc
+new file mode 100644
+index 0000000000000000000000000000000000000000..5cc9fe6e8795d2cbbe27cdc7075395de7be4f939
+GIT binary patch
+literal 1274
+zcmcgsPfrt35Z}M;wzQy#iBzM+cxg=k@~0^wrce}Pl$3~<O>nc__oz#Ex8=QU2u(Z*
+zXTJakJ#z8vhrloJZpH&4`UyA~XSPrv9*7rT@_zefW@p~aZ)Vp{r;`$_{z`N6qb5l|
+zP`JE6C)Hr{bpRp}*^^8;dMduENV4Q>rY;XGF*61h#f$rfX~@!wL{y^fNkpTut;7e_
+zOwtjew-wf)u}`Vb;7jD!QZ{x1k)_qFEK)5RF598q=(s`Xp!V`oK&Zjy_W)>=g{csk
+zD0`Br4sJ3vqGLpnta~mE!gb0+M~2tW7siOguEXXF0O(KD1BHMmiAAS4F-YP-CrL7L
+zW=WCsnPn6$E#*Bh0QZcow!R&~dil0?@(6+*DyH6Lu0w^!-9A0dl#8Wmu2{~MN>k<X
+zd~t4mx|pA>lxJqAk00#+T>E+-9DQ&+9WCZd#cH)OGgqxtDkY&VF4YfpGah!jmd)ED
+z5xPFqV*A~JuIUn?xWv?X*m2s&zaZ3p8-iiCj-P+;Pkh<gsGY2VB-G`n&ki9q$ccKJ
+zBDUS@gp{)hutjh>S9rrI<AtUhv<fd8uj+-(4zpV{x7GEX9N(e25K_pM3QokS1>Rx4
+zyDO&fU|nvR<=CFn^X!l|kOdvC;0A!CWaP|mP3u3tXiNS&@Bh%Zqm3Fv#u#SGa4s08
+z%Mu9qS+Eg=6v7z74TPHr;|RA9A|h`OPmy>BL{Yk~!X=liFbZt3^>=o#$lG|)Rl*kj
+zfv~^At!8y$SXN;B)Urg<viuI|d3a7))^^YK1{OAn$!D%sFf4<qU_g?148V|$xM4&(
+z4DH))U|HF;Fq%Er3*CT=RIR&f4W&t|yBp1m&0)quw-e+U-C=G>MPjHD@pD}goFmq3
+zCX8O-hA5cv!Qf3Z{Cb744!XJx;V?6H7j+sYaxv0_Q`7`wVNmoF{0l_fK9p0+_=F+<
+E0s3Z66951J
+
+literal 0
+HcmV?d00001
+
+diff --git a/client3.py b/client3.py
+index 3fc09b7..1e7b27d 100644
+--- a/client3.py
++++ b/client3.py
+@@ -35,25 +35,32 @@ def getDataPoint(quote):
+     stock = quote['stock']
+     bid_price = float(quote['top_bid']['price'])
+     ask_price = float(quote['top_ask']['price'])
+-    price = bid_price
++    price = (bid_price + ask_price) / 2
+     return stock, bid_price, ask_price, price
+ 
+ 
+ def getRatio(price_a, price_b):
+     """ Get ratio of price_a and price_b """
+     """ ------------- Update this function ------------- """
+-    return 1
++    if (price_b == 0):
++        return
++    else:
++        return price_a / price_b
+ 
+ 
+ # Main
+ if __name__ == "__main__":
+     # Query the price once every N seconds.
+     for _ in iter(range(N)):
+-        quotes = json.loads(urllib.request.urlopen(QUERY.format(random.random())).read())
++        quotes = json.loads(urllib.request.urlopen(
++            QUERY.format(random.random())).read())
+ 
+         """ ----------- Update to get the ratio --------------- """
++        prices = {}
+         for quote in quotes:
+             stock, bid_price, ask_price, price = getDataPoint(quote)
+-            print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
++            prices[stock] = price
++            print("Quoted %s at (bid:%s, ask:%s, price:%s)" %
++                  (stock, bid_price, ask_price, price))
+ 
+-        print("Ratio %s" % getRatio(price, price))
++        print("Ratio %s" % getRatio(prices["ABC"], prices["DEF"]))
+-- 
+2.42.0
+
